@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Cityinfo.API</name>
+    </assembly>
+    <members>
+        <member name="M:Cityinfo.API.Controllers.CitiesController.GetCity(System.Int32,System.Boolean)">
+            <summary>
+                get one city by it's ID
+            </summary>
+            <param name="id">city id</param>
+            <param name="includePointOfInterest">point of interest id</param>
+            <returns>it returns a city with the provided id</returns>
+        </member>
+        <member name="T:Cityinfo.API.Migrations.CityTable">
+            <inheritdoc />
+        </member>
+        <member name="M:Cityinfo.API.Migrations.CityTable.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Cityinfo.API.Migrations.CityTable.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Cityinfo.API.Migrations.CityTable.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:Cityinfo.API.Migrations.AddDescriotionToPointOfInterestDb">
+            <inheritdoc />
+        </member>
+        <member name="M:Cityinfo.API.Migrations.AddDescriotionToPointOfInterestDb.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Cityinfo.API.Migrations.AddDescriotionToPointOfInterestDb.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Cityinfo.API.Migrations.AddDescriotionToPointOfInterestDb.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:Cityinfo.API.Migrations.MySeedData">
+            <inheritdoc />
+        </member>
+        <member name="M:Cityinfo.API.Migrations.MySeedData.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Cityinfo.API.Migrations.MySeedData.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Cityinfo.API.Migrations.MySeedData.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:Cityinfo.API.Migrations.UsersTable">
+            <inheritdoc />
+        </member>
+        <member name="M:Cityinfo.API.Migrations.UsersTable.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Cityinfo.API.Migrations.UsersTable.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Cityinfo.API.Migrations.UsersTable.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>
